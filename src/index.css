@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Form */
+
+#formContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 380px;
+  margin-top:30px;
+}
+
+#formContainer input {
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+#formContainer label{
+  color: rgb(255, 166, 0);
+  margin-right: 200px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#formContainer button {
+   width: 20%;
+   margin-top: 10px;
+   padding: 10px;
+   border-radius:5px;
+   font-size: 16px;
+   border:none;
+   font-weight: bold;
+   background-color: rgb(255, 166, 0);
+}
+
+#formContainer button:hover{
+  transform: scale(0.98);
+  transition: all .5s;
+  box-shadow: 2px 2px 1px 1px #b4b4b4;
+}
+
+/* Clients Table */
+
+h1{
+  display: flex;
+  justify-content: center;
+  margin:30px 0px;
+}
+
+#clientsConteiner{
+  display: flex;
+  padding:20px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid #000000 ;
+  border-radius: 5px;
+  width: 55%;
+}
+
+#clientsConteiner h2{
+  margin-top: -10px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgb(255, 166, 0);
+
+}
+
+#clientsConteiner li{
+  list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.disable{
+  display: none;
+}
+
+.active{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
